@@ -1,9 +1,7 @@
 //
 // Change the website.
 //
-function get(query){
-  return $(query)
-};
+
 function move(query, down, right)
 {
   query.css('top', '+=' + down + 'px' );
